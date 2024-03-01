@@ -28,5 +28,6 @@ namespace CPW219_CRUD_Troubleshooting.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }
